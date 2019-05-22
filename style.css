@@ -1,0 +1,210 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    color: rgba(0, 0, 0, .54);
+}
+
+a {text-decoration: none;color: inherit;}
+ul li {list-style-type: none;}
+
+nav {
+    background-color: white;
+}
+
+nav a, nav ul a {
+    color: rgba(0, 0, 0, .54);
+}
+
+.btn {
+    border-radius: 25em;
+    min-width: 160px;
+    box-shadow: none;
+    background-color: white;
+    color: #273592;
+}
+
+.btn.primary {
+    background-color: #E5881A;
+    color:white;
+}
+
+.btn.secondary {
+    background-color: #273592;
+    color:white;
+}
+
+.btn:hover, .btn.secondary:hover {
+    background-color: #808ce0;
+    color: white;
+    box-shadow: none;
+}
+
+.btn.primary:hover, .sidenav li>a.btn:hover {
+    background-color: #b56e1a;
+}
+
+.hero-screen {
+    display: flex;
+    background: url(image/hero-cover.png) center;
+    background-size: cover;
+    min-height: 480px;
+}
+
+.hero-screen .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-title {
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, .12);
+}
+
+.hero-subtitle {
+    color: white;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, .12);
+}
+
+.hero-screen a, .card a, .doctrine a {
+    margin-top: 24px;
+}
+
+main {
+    margin-top: -60px;
+}
+
+.card-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 24px;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, .12);
+}
+
+.card.secondary {
+    background-color: #273592;
+    color: white;
+}
+
+.card-title {
+    color: rgba(0, 0, 0, .75);
+    font-weight: 700 !important;
+}
+
+.card.secondary .card-title {
+    color: white;
+}
+
+input {
+    color: white;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #E5881A;
+    box-shadow: 0 1px 0 0 #E5881A;
+}
+
+input:not([type]):focus:not([readonly])+label,
+input[type=text]:not(.browser-default):focus:not([readonly])+label,
+input[type=password]:not(.browser-default):focus:not([readonly])+label,
+input[type=email]:not(.browser-default):focus:not([readonly])+label,
+input[type=url]:not(.browser-default):focus:not([readonly])+label,
+input[type=time]:not(.browser-default):focus:not([readonly])+label,
+input[type=date]:not(.browser-default):focus:not([readonly])+label, 
+nput[type=datetime]:not(.browser-default):focus:not([readonly])+label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label,
+input[type=tel]:not(.browser-default):focus:not([readonly])+label,
+input[type=number]:not(.browser-default):focus:not([readonly])+label,
+input[type=search]:not(.browser-default):focus:not([readonly])+label,
+textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #E5881A;
+}
+
+/* label color */
+.input-field label {
+    color: #fff;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #fff;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 0 #fff;
+}
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 0 #fff;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 0 #fff;
+}
+
+
+.about {
+    margin: 60px 0px;
+}
+.content-section {
+    display: flex;
+    align-items: center;
+}
+
+.content-title {
+    color: rgba(0, 0, 0, .75);
+    font-weight: 700;
+}
+
+.centered-title {
+    text-align: center;
+    color: white;
+}
+
+.centered-text {
+    text-align: center;
+    color: white;
+}
+
+.doctrine, .contact {
+    width: 100%;
+    background-color: #273592;
+}
+
+.doctrine-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0px;
+}
+
+.house-programs {
+    background-color: #E5881A;
+}
